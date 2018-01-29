@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'anakinmono';
+	src: url('./opipik_anakinmono/anakinmono.ttf');
+}
+@font-face {
+	font-family: 'Orbitron-Bold';
+	src: url('./Orbitron/Orbitron-Bold.ttf');
+}
+@font-face {
+	font-family: 'Orbitron-Regular';
+	src: url('/.Orbitron/Orbitron-Regular.ttf');
+}
+
+.body2 {
+	display: grid;
+	grid-column-gap: 15px;
+	grid-row-gap: 15px;
+}
+
+body {
+	font: 'Orbitron-Bold';
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	top: 15%;
+	background: linear-gradient(to right, #c11175, #353377);
+}
+
+h1 {
+	font: 600 3.5em 'Orbitron-Bold', sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Orbitron-Regular', sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 0.01em;
+}
+
+#button:hover {
+	background: #fc3ca3;
+	background-image: -webkit-linear-gradient(top, #fc3ca3, #d068d9);
+	background-image: -moz-linear-gradient(top, #fc3ca3, #d068d9);
+	background-image: -ms-linear-gradient(top, #fc3ca3, #d068d9);
+	background-image: -o-linear-gradient(top, #fc3ca3, #d068d9);
+	background-image: linear-gradient(to bottom, #fc3ca3, #d068d9);
+	text-decoration: none;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+	flex-basis: 80%;
+}
+
+li {
+	flex-basis: 15%;
+	display: flex;
+	flex-direction: column;
+	margin: 10px 20px;
+	align-items: center;
+
+	width: 115px;
+	padding: 10px;
+	border: 2px solid #000;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	vertical-align: center;
+
+	border-color: rgba(0, 0, 0, 0.5);
+}
+
+span {
+	font-family: 'anakinmono';
+	color: #ffdc63;
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 0.01em;
+}
